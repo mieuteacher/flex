@@ -1,0 +1,169 @@
+*{ 
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+ }
+
+
+ header {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    position: sticky;
+    top: 0;
+ }
+
+ .page_title {
+    background-color: #333333;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+ }  
+
+ .page_title > h1 {
+    width: 1024px;
+    height: 100%;
+    color: white;
+    font-weight: 900;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .navBar {
+    background-color: #F1F1F1;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .navBar > nav {
+    width: 1024px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .navBar_item {
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+ }
+ 
+
+ main {
+    display: flex;
+    justify-content: center;
+ }
+
+ main > .main_content {
+    width: 1024px;
+    height: 612px;
+ }
+
+ .article_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+ }
+
+ .article_main > h2 {
+    font-weight: 900;
+    font-size: 30px;
+ }
+
+ .article_main > p {
+    font-size: 20px;
+    margin: 20px 0;
+ }
+
+ .article_main > button {
+    font-size: 15px;
+    padding: 3px;
+    border: 1px solid black;
+ }
+
+ .featureBox {
+    margin-top: 30px;
+ }
+
+ .featureBox > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+ }
+ .featureBox_show {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .featureBox_show_items {
+    width: 23%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .item_img {
+    height: 100px;
+ }
+
+ .item_title {
+    font-size: 20px;
+ }
+
+ footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+ }
+
+ .footer_content {
+    width: 1024px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .aboutMeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+ }
+
+ .aboutMeContent > h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+ }
+
+ .aboutMeContent > p {
+
+ }
+
+ .listen {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+ }
+
+ .listen_content {
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+ }
